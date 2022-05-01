@@ -1,0 +1,70 @@
+header {
+    border-radius: 30px;
+    background-color: rgba(87, 87, 87, 0.664);
+    padding: 10px;
+    margin: 10px;
+    color: whitesmoke;
+}
+header img {
+    float: left;
+}
+div#wrapper {
+    margin: 10px;
+}
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+nav {
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #6b6b6bb7;
+    color: whitesmoke;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 0px;
+    color: whitesmoke;
+}
+nav ul li {
+    padding: 0px 15px;;
+    color: whitesmoke;
+}
+nav ul li.active {
+    border-right: 5px solid rgb(238, 255, 0);
+    color: whitesmoke;
+}
+nav ul a {
+    text-decoration: none;
+    color: blue;
+}
+div#content {
+    display: table-cell;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #0000009d;
+    padding: 15px;
+    color: whitesmoke;
+}
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: #000000a6;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 10px;
+}
+.link {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+}
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: whitesmoke;
+}
